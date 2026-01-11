@@ -1,8 +1,7 @@
 name : deploy
 on: [push,workflow_dispatch]
 jobs:
-    tests: 
-    greet:
+    test: 
         runs-on: ubuntu-latest
         steps: 
             - name: Get code 
